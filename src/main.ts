@@ -124,9 +124,9 @@ export default class Hackatime extends Plugin {
   private updateStatusBarText(text?: string): void {
     if (!this.statusBar) return;
     if (!text) {
-      this.statusBar.setText('🕒');
+      this.statusBar.setText('');
     } else {
-      this.statusBar.setText('🕒 ' + text);
+      this.statusBar.setText(' ' + text);
     }
   }
 
