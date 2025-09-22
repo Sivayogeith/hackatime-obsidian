@@ -1,12 +1,12 @@
 # Hackatime for Obsidian
 
-[Hackatime][wakatime] is an open source Obsidian plugin for metrics, insights, and time tracking automatically generated from your Obsidian usage activity.
+[Hackatime][hackatime] is an open source Obsidian plugin for metrics, insights, and time tracking automatically generated from your Obsidian usage activity.
 
 ## Installation
 
 1. Inside Obsidian, click `Settings` → `Community Plugins` → `Browse`.
 
-2. Search for `wakatime`, click on the Hackatime plugin.
+2. Search for `hackatime`, click on the Hackatime plugin.
 
 3. Click the `Install` button.
 
@@ -14,21 +14,16 @@
 
 5. Enter your [api key][api key], then press `enter`.
 
-6. Use Obsidian and your activity will be displayed on your [Hackatime dashboard](https://wakatime.com)
+6. Use Obsidian and your activity will be displayed on your [Hackatime dashboard][hackatime]
 
 ## Usage
 
-Visit [https://wakatime.com](https://wakatime.com) to see your coding activity.
-
-![Project Overview](https://wakatime.com/static/img/ScreenShots/Screen-Shot-2016-03-21.png)
+Visit [https://hackatime.hackclub.com][hackatime] to see your coding activity.
 
 To edit your api key, open the `Command Palette` then type `Hackatime` and select the `Hackatime API Key` command.
 
 ## Troubleshooting
-
-The [How to Debug Plugins][how to debug] guide shows how to check when coding activity was last received from your editor using the [Plugins Status Page][plugins status page].
-
-For more general troubleshooting info, see the [wakatime-cli Troubleshooting Section][wakatime-cli help].
+For general troubleshooting info, see the [wakatime-cli Troubleshooting Section][wakatime-cli help].
 
 ## Contributing
 
@@ -41,8 +36,6 @@ For more general troubleshooting info, see the [wakatime-cli Troubleshooting Sec
 - Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
 
 
-[wakatime]: https://wakatime.com/vs-code
-[api key]: https://wakatime.com/api-key
+[hackatime]: https://hackatime.hackclub.com/
+[api key]: https://hackatime.hackclub.com/my/settings
 [wakatime-cli help]: https://github.com/wakatime/wakatime-cli/blob/develop/TROUBLESHOOTING.md
-[how to debug]: https://wakatime.com/faq#debug-plugins
-[plugins status page]: https://wakatime.com/plugin-status
