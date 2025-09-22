@@ -4,3 +4,5 @@ export enum LogLevel {
   WARN,
   ERROR,
 }
+
+export const HACKATIME_URL = "https://hackatime.hackclub.com/api/hackatime/v1";
