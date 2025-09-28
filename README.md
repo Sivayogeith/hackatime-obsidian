@@ -1,6 +1,7 @@
 # Hackatime for Obsidian
+NOTE: This project is basically obsidian-wakatime + custom project names and hackatime branding
 
-[Hackatime][hackatime] is an open source Obsidian plugin for metrics, insights, and time tracking automatically generated from your Obsidian usage activity.
+[Hackatime][hackatime] Obsidian is an open source Obsidian plugin for metrics, insights, and time tracking automatically generated from your Obsidian usage activity.
 
 ## Installation
 
@@ -34,6 +35,10 @@ For general troubleshooting info, see the [wakatime-cli Troubleshooting Section]
 ## Manually installing the plugin
 
 - Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
+
+## FAQ
+#### Is this README.md AI generated?
+No, it's just obsidian-wakatime's readme that I changed into hackatime-obsidian
 
 
 [hackatime]: https://hackatime.hackclub.com/
