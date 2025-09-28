@@ -1,5 +1,5 @@
 # Hackatime for Obsidian
-NOTE: This project is basically obsidian-wakatime + custom project names and hackatime branding
+**NOTE: This project is a fork of [obsidian-wakatime](https://github.com/wakatime/obsidian-wakatime) + custom project names and hackatime branding**
 
 [Hackatime][hackatime] Obsidian is an open source Obsidian plugin for metrics, insights, and time tracking automatically generated from your Obsidian usage activity.
 
