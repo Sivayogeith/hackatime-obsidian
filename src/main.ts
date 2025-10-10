@@ -205,7 +205,7 @@ export default class Hackatime extends Plugin {
         const user_agent =
           "obsidian/" +
           apiVersion +
-          " hackatime-obsidian/" +
+          " hackatime/" +
           this.manifest.version;
         args.push("--plugin", Utils.quote(user_agent));
 
@@ -323,7 +323,7 @@ export default class Hackatime extends Plugin {
         const user_agent =
           "obsidian/" +
           apiVersion +
-          " hackatime-obsidian/" +
+          " hackatime/" +
           this.manifest.version;
         const args = ["--today", "--plugin", Utils.quote(user_agent)];
 
