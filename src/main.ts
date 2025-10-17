@@ -34,16 +34,16 @@ export default class Hackatime extends Plugin {
     this.options = new Options(this.logger);
 
     this.addCommand({
-      id: "hackatime-api-key",
-      name: "Hackatime API Key",
+      id: "api-key",
+      name: "API Key",
       callback: () => {
         this.promptForApiKey();
       },
     });
 
     this.addCommand({
-      id: "hackatime-project-name",
-      name: "Hackatime Project Name",
+      id: "project-name",
+      name: "Project Name",
       callback: () => {
         this.promptForProjectName();
       },
